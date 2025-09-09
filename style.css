@@ -1,0 +1,35 @@
+main {
+    max-width: 50rem;
+    margin-inline: auto;
+}
+
+nav{
+    
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    text-decoration-color :deeppink; 
+    
+;
+    
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+        
+        li > a{
+            text-decoration: none
+
+        }
+
+        li > a:hover {
+            text-decoration: underline
+         
+        }
+    };
+
+     img{
+        max-width: 50rem;
+        width: 100%;
+    }
+}
